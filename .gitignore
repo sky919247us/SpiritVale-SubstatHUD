@@ -8,8 +8,11 @@ obj/
 *.bak
 *.bak-*
 
-# 發布壓縮檔（由 CI 或手動上傳到 Releases，不進版控）
-release/*.zip
+# 發布產物（zip 與打包暫存，一律經由 GitHub Releases 發布，不進版控）
+release/
+
+# 原始截圖來源（整理後的成品在 docs/images/）
+展示圖/
 
 # 編輯器
 .vs/
