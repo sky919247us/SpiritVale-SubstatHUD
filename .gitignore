@@ -1,0 +1,22 @@
+# 建置產物
+bin/
+obj/
+*.user
+*.suo
+
+# 備份檔
+*.bak
+*.bak-*
+
+# 發布壓縮檔（由 CI 或手動上傳到 Releases，不進版控）
+release/*.zip
+
+# 編輯器
+.vs/
+.vscode/
+.idea/
+
+# 系統
+Thumbs.db
+desktop.ini
+.DS_Store
