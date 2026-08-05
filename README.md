@@ -190,7 +190,13 @@ roll 100  →  顯示 +3     ← 兩者看起來完全一樣
 本 Mod 是**純顯示端**：不修改任何數值、不送出封包、不碰存檔。
 它只是把遊戲**已經算好、本來就會顯示給你看**的資訊，換一種方式呈現。
 
-不過任何 Mod 都存在風險，是否使用請自行判斷。
+關於封鎖，官方團隊曾在 Discord 上回覆玩家提問（2026 年 8 月）：
+
+> this is allowed but we are not responsible if anything happens to the player
+> for using an unofficial tool. Every player is responsible for their own account.
+
+意即**使用非官方工具目前是被允許的，但官方不提供任何保證或支援**。
+詳見下方「關於官方立場」。
 
 **Q：神器（Artifact）也支援嗎？**
 
@@ -263,6 +269,26 @@ dotnet build src/SpiritValeSubstatHUD.csproj -c Release -p:GameDir="D:\Games\Spi
 
 本專案為非官方的第三方 Mod，與《SpiritVale》開發商及發行商**無任何關聯**。
 使用風險請自行承擔。
+
+### 關於官方立場
+
+2026 年 8 月，有玩家就非官方工具（漢化包、詞條小工具）向官方團隊提問，
+SPR 團隊成員於 Discord 回覆：
+
+> Okay well, this is allowed but we are not responsible if anything happens
+> to the player for using an unofficial tool.
+> Every player is responsible for their own account~
+>
+> — Brilett（SPR 團隊）
+
+歸納重點：
+
+- 使用非官方工具**目前是被允許的**
+- 但官方**不提供任何保證或支援**
+- 若因使用而導致帳號問題、資料遺失、遊戲異常等狀況，**責任由玩家自行承擔**
+
+> ⚠️ 這是當時的即時問答回覆，**並非官方正式公告，也不代表官方認可或背書本專案**。
+> 官方立場可能隨時調整，使用前請自行確認最新規範。
 
 本 Mod 不包含、不散布任何遊戲本體檔案，亦不包含 BepInEx 框架
 （BepInEx 採 LGPL-2.1 授權，請自行從[官方專案](https://github.com/BepInEx/BepInEx)取得）。
