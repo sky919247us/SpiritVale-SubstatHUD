@@ -79,8 +79,10 @@ Write-Host '    ★★  橘色 = 75% 以上' -ForegroundColor Gray
 Write-Host '    ★   紫色 = 50% 以上' -ForegroundColor Gray
 Write-Host '  ・道具說明開頭會多一行品質總評' -ForegroundColor Gray
 Write-Host ''
-Write-Host '想調整標記門檻，遊戲跑過一次後編輯：' -ForegroundColor Cyan
-Write-Host ('  ' + (Join-Path $bep 'config\local.spiritvale.substathud.cfg')) -ForegroundColor Gray
+Write-Host '想調整標記門檻：' -ForegroundColor Cyan
+Write-Host '  設定檔會在你「第一次啟動遊戲」後自動生成於：' -ForegroundColor Gray
+Write-Host ('    ' + (Join-Path $bep 'config\local.spiritvale.substathud.cfg')) -ForegroundColor Gray
+Write-Host '  （現在還不存在是正常的。本資料夾的「設定檔範例.cfg」可先看有哪些選項）' -ForegroundColor Gray
 Write-Host ''
 Write-Host '若要移除：雙擊「一鍵移除.bat」。' -ForegroundColor Gray
 Write-Host '本 Mod 不會修改遊戲本體或其他 Mod 的任何檔案，移除即完全還原。' -ForegroundColor Gray

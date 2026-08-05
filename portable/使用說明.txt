@@ -79,10 +79,26 @@
 
 【設定】
 
-  遊戲執行過一次後會生成設定檔，用記事本開啟即可編輯，
-  修改後重新啟動遊戲生效：
+  ※ 重要：設定檔不在本壓縮檔內，也不需要你手動建立。
+    它會在你「安裝完、第一次啟動遊戲」時自動生成。
 
-    <遊戲目錄>\BepInEx\config\local.spiritvale.substathud.cfg
+  調整設定的步驟：
+
+    1. 先開一次遊戲（讓它自動生成設定檔），然後完全關閉遊戲
+    2. 用記事本開啟下面這個檔案：
+
+         <遊戲目錄>\BepInEx\config\local.spiritvale.substathud.cfg
+
+       Steam 預設路徑通常是：
+
+         C:\Program Files (x86)\Steam\steamapps\common\SpiritVale
+             \BepInEx\config\local.spiritvale.substathud.cfg
+
+    3. 修改後存檔，重新啟動遊戲即生效
+
+  本壓縮檔內附了一份「設定檔範例.cfg」，
+  可以先開來看有哪些選項，內容與自動生成的完全相同。
+  那份只是參考，不必複製到遊戲目錄。
 
   [1.功能]
     背包星號標記        預設 true   在背包名稱前加 ★ 並上色
